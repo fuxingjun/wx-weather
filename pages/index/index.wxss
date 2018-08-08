@@ -1,0 +1,111 @@
+/**index.wxss**/
+
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
+
+page {
+    background: linear-gradient(rgb(92, 161, 255), rgb(140, 184, 211));
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.location {
+    text-align: center;
+}
+
+.lon-lat {
+    font-size: 25rpx;
+    float: left;
+}
+
+.country-text {
+    font-size: 25rpx;
+    float: right;
+}
+
+.city {
+    font-weight: bold;
+    font-size: 24rpx;
+}
+
+.w-detail view {
+    width: 50%;
+}
+
+.w-detail text {
+    font-size: 20rpx;
+}
+
+.w-img image {
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.tmp {
+    margin-top: 20rpx;
+}
+
+.tmp text {
+    display: block;
+}
+
+.content-box {
+    width: 675rpx;
+}
+
+.content-title {
+    display: block;
+    margin: 10rpx;
+    text-align: left;
+    border-bottom: 2px white solid;
+}
+
+.content-title text {
+    display: block;
+    font-size: 18rpx;
+    font-weight: bold;
+}
+
+.forecast-detail {
+    width: 675rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rpx;
+}
+
+.forecast-detail text {
+    font-size: 18rpx;
+}
+
+.forecast-detail image {
+    width: 60rpx;
+    height: 60rpx;
+}
+.suggestions-detail {
+    text-align: left;
+    padding: 0 20rpx;
+}
+.suggestions-detail text{
+    display: block;
+    margin: 10rpx 0;
+    text-indent: 1em;
+}

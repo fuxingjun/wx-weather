@@ -1,0 +1,29 @@
+/**app.wxss**/
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+text{
+    font-size: 18rpx;
+}
+.container {
+    height: 100%;
+    width: 700rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20rpx;
+    box-sizing: border-box;
+    border: 2rpx solid white;
+    margin: 25rpx auto;
+    box-shadow: 10px 10px 5px grey;
+}
+
