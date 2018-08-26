@@ -1,6 +1,26 @@
 //app.js
 App({
     onLaunch: function() {
+        wx.request({
+            url: "https://free-api.heweather.com/s6/weather",
+            method: "POST",
+            data: {
+                key: "e097cc0ef98f4536886ea65640d6c47d",
+                location: "auto_ip"
+            },
+            header: {
+                'content-type': 'application/x-www-form-urlencoded'
+            },
+            success: res => {
+                this.globalData.HeWeather6 = res.data.HeWeather6;
+                if (this.weatherInfoReadyCallback){
+                    this.weatherInfoReadyCallback(res);
+                }
+            },
+            fail: res => {
+
+            }
+        });
         // 展示本地存储能力
         // var logs = wx.getStorageSync('logs') || []
         // logs.unshift(Date.now())
@@ -34,6 +54,7 @@ App({
         // })
     },
     globalData: {
-        userInfo: null
+        userInfo: null,
+        HeWeather6: null
     }
 })
