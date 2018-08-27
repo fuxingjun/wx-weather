@@ -5,7 +5,7 @@
   "window":{
     "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "热死人天气",
+    "navigationBarTitleText": "酷酷天气",
     "navigationBarTextStyle":"black",
     "enablePullDownRefresh":true
   }
